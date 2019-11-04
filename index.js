@@ -6,7 +6,7 @@ function destructivelyAppendKitten (name){
 }
 
 function destructivelyPrependKitten (name) {
-  name = "Bob"
+  var name = "Bob"
   kittens.shift (name);
   return kittens
 }// Add your functions and code here
