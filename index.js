@@ -8,4 +8,9 @@ function destructivelyAppendKitten (name){
 function destructivelyPrependKitten (name) {
   kittens.unshift (name);
   return kittens
-}// Add your functions and code here
+}
+
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+} // Add your functions and code here
