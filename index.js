@@ -5,7 +5,7 @@ function destructivelyAppendKitten (name){
   return kittens
 }
 
-funtion destructivelyPrependKitten (name) {
+function destructivelyPrependKitten (name) {
   kittens.shift (name);
   return kittens
 }// Add your functions and code here
