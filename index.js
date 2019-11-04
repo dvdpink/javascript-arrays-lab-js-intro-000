@@ -22,4 +22,8 @@ function destructivelyRemoveFirstKitten() {
 
 function appendKitten(name) {
   return [...kittens, name]
+}
+
+function prepend(name) {
+  return [name, ...kittens]
 }// Add your functions and code here
